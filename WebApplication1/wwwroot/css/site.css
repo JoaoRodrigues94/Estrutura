@@ -1,0 +1,245 @@
+﻿body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.carousel.carousel-slider {
+  top: -64px
+}
+
+#meuMenu {
+  top: 40px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+
+.fixar {
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.carousel .menuTransicao {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+}
+
+  .carousel .menuTransicao .fa-angle-right, .carousel .menuTransicao .fa-angle-left {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    text-indent: -99999px;
+  }
+
+  .carousel .menuTransicao .fa-angle-right {
+    background: url('../images/left.png');
+    left: 7%;
+  }
+
+  .carousel .menuTransicao .fa-angle-left {
+    right: 7%;
+    background: url('../images/right.png');
+  }
+
+.section {
+  margin-top: -65px;
+}
+
+.animate-svg {
+  width: 90px;
+  top: 5px;
+}
+
+  .animate-svg svg {
+    stroke-width: 100px;
+    stroke: #333661;
+    width: 100%;
+    height: 100%;
+    stroke-dashoffset: 100000;
+    stroke-dasharray: 100000;
+    fill: transparent;
+    animation: svganimation 5s ease-in-out forwards;
+  }
+
+  /*Site*/
+.input-field .prefix.active {
+  color: #1192d4;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #1192d4;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #1192d4;
+  -webkit-box-shadow: 0 1px 0 0 #1192d4;
+  box-shadow: 0 1px 0 0 #1192d4;
+}
+
+.dgrdLB1 {
+  background: rgb(60,113,255);
+  background: linear-gradient(90deg, rgba(60,113,255,1) 0%, rgba(70,251,128,1) 100%);
+}
+.dgrdLB2 {
+  background: rgb(60,113,255);
+  background: linear-gradient(270deg, rgba(60,113,255,1) 0%, rgba(70,251,128,1) 100%);
+}
+.dgrdLBVert {
+  background: rgb(60,113,255);
+  background: linear-gradient(0deg, rgba(60,113,255,1) 0%, rgba(70,251,128,1) 100%);
+}
+.dgrdLBRad {
+  background: rgb(60,113,255);
+  background: radial-gradient(circle, rgba(60,113,255,1) 0%, rgba(70,252,128,1) 100%);
+}
+
+.corLB {
+  background-color: #000000;
+}
+
+.LCSLink {
+  line-height: 0px;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+  .LCSLink a:hover {
+    font-size: 14px;
+  }
+
+.QSimg {
+  width: 300px;
+  height: 300px;
+  border-radius: 170px;
+}
+
+.Qsm {
+  margin-top: 10px !important;
+}
+
+.cliImg {
+  position: relative;
+  padding: 0.2rem 0.2rem !important;
+}
+
+  .cliImg .eftCli {
+    cursor: inherit !important;
+    width: 100%;
+    height: 145.92px;
+  }
+
+.dContato {
+  border-right: 3px solid #ffffff;
+}
+
+.LogoEdit {
+  width: 200%;
+  padding-top: 5px;
+}
+
+.clientesLB {
+  width: 90%;
+  font-size: 16px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f34 {
+  font-size: 34px;
+}
+.f44 {
+  font-size: 44px;
+}
+.bold{
+  font-style: oblique;
+}
+
+/*Catalogo*/
+.indisIc {
+  color: red;
+  position: absolute;
+  right: 0;
+}
+
+.nomeCat {
+  width: 20%;
+  font-size: 20px;
+}
+
+.cabCatalogo {
+  font-size: 12px;
+  margin-top: -5px;
+}
+/*Fim catalogo*/
+
+@keyframes svganimation {
+  0% {
+    stroke-dashoffset: 100000;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+    fill: #333661;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    fill: #333661;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel.carousel-slider {
+    top: 54px
+  }
+
+  #meuMenu {
+    top: 0;
+    position: fixed;
+  }
+
+  .animate-svg {
+    top: 1px;
+  }
+
+  .QSimg {
+    width: 275px;
+    height: 275px;
+    border-radius: 170px;
+  }
+
+}

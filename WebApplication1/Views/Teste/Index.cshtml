@@ -1,0 +1,46 @@
+﻿@*@using X.PagedList.Mvc.Core*@
+@{
+  ViewBag.Title = "Teste";
+}
+
+<h1 class="blue-text">Título</h1>
+<form name="FormFilter" id="FormFilter" asp-action="Index" method="post">
+
+  <table class="highlight">
+    <thead>
+      <tr class="grey-text">
+        <th>Cliente</th>
+        <th>Ticket Médio Primeira Conta</th>
+        <th>Total Gasto no Período</th>
+        <th>#Transações no Período</th>
+        <th>Categoria Compradas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cliente A</td>
+        <td>$13.723</td>
+        <td>$26.847</td>
+        <td>6</td>
+        <td>Calças, jeans, Bermudas, Social, Malha, Calor</td>
+      </tr>
+      <tr>
+        <td>Cliente B</td>
+        <td>$15.83</td>
+        <td>$85.87</td>
+        <td>1</td>
+        <td>Praia</td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+
+@*<div class="row separador">
+  <div class="col s6 left-align">
+    @if (Model.PageCount > 1)
+      @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+  </div>
+  <div class="col s6 right-align grey-text registros">
+    Listando registros de @Model.FirstItemOnPage a @Model.LastItemOnPage de um total de @Model.TotalItemCount
+  </div>
+</div>*@

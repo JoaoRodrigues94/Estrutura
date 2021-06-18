@@ -1,0 +1,608 @@
+﻿body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.centralize {
+  display: table;
+  margin: 0 auto;
+}
+
+.browser-default {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  outline: none;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 1;
+}
+
+.clear {
+  clear: both;
+}
+
+.ImgFund {
+  background: url(../images/backgroud.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+.dgrdLB1 {
+  background: rgb(60,113,255);
+  background: linear-gradient(90deg, rgba(60,113,255,1) 0%, rgba(70,251,128,1) 100%);
+}
+
+.dgrdLB2 {
+  background: rgb(60,113,255);
+  background: linear-gradient(270deg, rgba(60,113,255,1) 0%, rgba(70,251,128,1) 100%);
+}
+
+.dgrdLBVert {
+  background: rgb(60,113,255);
+  background: linear-gradient(0deg, rgba(60,113,255,1) 0%, rgba(70,251,128,1) 100%);
+}
+
+.dgrdLBRad {
+  background: rgb(60,113,255);
+  background: radial-gradient(circle, rgba(60,113,255,1) 0%, rgba(70,252,128,1) 100%);
+}
+
+/*NavBar*/
+.topP {
+  padding-top: 95px;
+}
+
+#meuMenu {
+  top: 40px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.corLB {
+  background-color: #000000;
+}
+
+.navH {
+  height: 64px;
+  line-height: 64px;
+}
+
+.LCSLink {
+  line-height: 0px;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+  .LCSLink a:hover {
+    font-size: 14px;
+  }
+
+.btnBusca {
+  font-size: 40px;
+  color: #9e9e9e;
+}
+
+/*Nota Pedido*/
+.codB {
+  width: 20%;
+}
+
+.imp {
+  color: #FFFFFF
+}
+/*Fim Nota Pedido*/
+
+/*Perfil Cliente*/
+
+.FundoPerfil {
+  width: 100%;
+  height: 170px;
+}
+
+.imgPerf {
+  width: 185px;
+  height: 185px;
+  left: 40px;
+  top: 15px;
+  background: url("../imagem_perfil/SemImagem.jpg");
+}
+
+.CimgPerf {
+  height: 100%;
+  width: 100%;
+}
+
+.btnPerf {
+  height: 80px;
+}
+
+#cont .card-content {
+  margin-top: -40px;
+}
+
+.NomePerf {
+  height: 75px;
+}
+
+
+.txtPerf {
+  line-height: 24px !important;
+  margin-top: 15px !important;
+  margin-bottom: 0px !important;
+  white-space: nowrap !important;
+  width: 100%;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.cPointer {
+  cursor: pointer;
+}
+
+.padPerf {
+  padding: 2px !important;
+  margin-top: 15px;
+}
+
+.card .card-content {
+  padding: 15px;
+}
+
+.LogoEdit {
+    width: 37%;
+    padding-top: 13px;
+    padding-left: 59px;
+    padding-right: 130px;
+}
+
+.mtfp {
+  margin-top: 13px;
+}
+
+.FazerP {
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.tituloBusc {
+  margin: 0px;
+  font-size: 35px;
+  font-style: oblique;
+  color: rgb(170, 158, 158);
+}
+
+.tituloEditC {
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-style: oblique;
+  color: rgb(170, 158, 158);
+}
+
+.maiuscula{text-transform: uppercase}
+
+.fixar {
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.f10 {
+  font-size: 10px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f18 {
+  font-size: 18px !important;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f34 {
+  font-size: 34px;
+}
+
+.f44 {
+  font-size: 44px;
+}
+
+.bold {
+  font-style: oblique;
+}
+
+.espacBx {
+  margin-bottom: 50px;
+}
+
+.topT {
+  margin-top: 0px;
+}
+
+.campinho {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: -15px;
+  width: 300px;
+  height: 65px;
+  border-radius: 20px;
+}
+
+.campinho2 {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: -15px;
+  margin-left: -10px;
+  width: 300px;
+  height: 65px;
+  border-radius: 20px;
+}
+
+.dContato {
+  margin-top: 10px;
+  border-top: 3px solid #9e9ea1;
+}
+
+/*Catálogo*/
+.nomeCat {
+  width: 25%;
+  font-style: oblique;
+  padding: 20px;
+}
+
+.Ptipo {
+  margin: 0px !important;
+}
+
+/*Balão Informativo*/
+/*Balão*/
+
+.hm {
+  position: relative;
+  cursor: pointer;
+  width: 115px !important;
+}
+
+  .hm .balao {
+    display: none;
+    position: absolute;
+    align-content: center;
+    align-self: center;
+    top: -90px;
+    margin-left: -15px;
+    background: #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 5px;
+  }
+
+    .hm .balao:after {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #000000;
+      bottom: -20px;
+      left: 35%;
+    }
+
+  .hm:hover .balao {
+    display: block;
+  }
+
+/*Óculos*/
+.oculos {
+  width: 60%;
+  margin-left: 175px;
+}
+
+.ocl {
+  width: 100%;
+}
+
+.txtL {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*Tela Pedidos*/
+.imgMod {
+  width: 100%;
+}
+
+.prevM {
+  margin-top: 60px;
+}
+
+.ModelosL {
+  width: 115px !important;
+}
+
+.well {
+  padding: 20px;
+}
+
+.borda {
+  border: solid 1px #00ff21;
+  border-radius: 15px;
+}
+
+.bordaR {
+  border: 1px solid #9e9e9e;
+  margin-top: 50px !important;
+}
+.borda_direita {
+  border-right: 1px solid #9e9e9e;
+}
+.borda_baixo {
+  border-bottom: 1px solid #9e9e9e;
+}
+.borda_total {
+  border: 1px solid #9e9e9e;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.dadosL {
+  padding-left: 55px;
+}
+
+.marca-modelo {
+  width: 48%;
+  float: left;
+}
+/*Fim Tela Pedidos*/
+
+/*Pagamento*/
+
+.pagInf {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.bordinha {
+  border-bottom: 1px solid #9e9e9e !important;
+}
+
+.Fpg {
+  margin-top: 8px;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+  }
+
+  .row .col.m4 {
+    width: 33.33333%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  .campinho {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .campinho2 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .oculos {
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  .txtL {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .imgPerf {
+    left: 45px !important;
+  }
+
+    .LogoEdit {
+        width: 93%;
+        padding-top: 15px;
+        padding-left: 79px;
+        padding-right: 69px;
+    }
+
+  .NomePerf {
+    height: 75px;
+  }
+
+  .txtPerf {
+    line-height: 24px !important;
+    margin-top: 15px !important;
+    margin-bottom: -15px !important;
+    white-space: nowrap !important;
+    width: 12em !important;
+    float: left !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}
+
+.pdc {
+  margin-bottom: -10px;
+}
+
+.esprimidin {
+  margin-bottom: -30px;
+}
+
+.semBorda {
+  border: none !important;
+}
+
+.bordaFull {
+  border: 1px solid #9e9e9e;
+  height: 120px !important;
+}
+
+.DadosN {
+  width: 100%;
+  font-size: 14px;
+  display: table;
+}
+
+  .DadosN :nth-child(odd) {
+    font-weight: bold;
+  }
+
+.Notas {
+  width: 100%;
+  font-size: 16px;
+  display: table;
+}
+
+  .Notas li {
+    float: left;
+    padding: 5px 5px;
+  }
+
+    .Notas li:nth-child(odd) {
+      font-weight: bold;
+    }
+
+.TabelaPedido {
+  width: 100%;
+  font-size: 16px;
+  display: table;
+}
+
+  .TabelaPedido li {
+    float: left;
+    padding: 5px 5px;
+  }
+
+    .TabelaPedido li:nth-child(odd) {
+      font-weight: bold;
+    }
+
+.TabelaPedidoCli {
+  display: table;
+}
+
+  .TabelaPedidoCli li {
+    float: left;
+    padding: 5px 5px;
+  }
+
+    .TabelaPedidoCli li:nth-child(odd) {
+      font-weight: bold;
+    }
+
+.select-wrapper input.select-dropdown {
+  color: #9e9e9e;
+}
+
+.select-personalizado {
+  position: absolute;
+  padding: 10px;
+  padding-left: 0px;
+  background: #FFF;
+  z-index: 10;
+  overflow: auto;
+  height: 180px;
+  width: 100%;
+  line-height: 2;
+}
+
+  .select-personalizado ul li {
+    border-bottom: 1px solid #c1c1c1;
+    cursor: pointer;
+  }
+
+    .select-personalizado ul li:last-child {
+      border-bottom: none;
+    }
+
+    .select-personalizado ul li:hover {
+      background: #2196f3;
+      color: #FFFFFF;
+    }
+
+#filtroPesquisa label {
+  font-weight: normal;
+}
+
+.brand-logo-pdf{
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.negrito{
+  font-weight: bold;
+}
+
+/*Tebela Impressao Pedidos*/
+.tabela_mini {
+  font-size: 12px !important;
+  line-height: 50% !important;
+  border: 1px solid #dddddd !important;
+  margin-top: -70px;
+}
+
+.DadosLentes, .tratamentos {
+  font-size: 12px !important;
+  line-height: 50% !important;
+  text-align: left;
+  margin-top: -50px;
+}
+
+.tratamentos{
+  margin-top: -1px;
+  border-top: 0;
+}
+
+.tabela_mini2 {
+  font-size: 10px !important;
+  line-height: 95% !important;
+}
+
+.linha_mini {
+  line-height: 50% !important;
+  margin-bottom: -50px !important;
+}
+
+.linha_mini2 {
+  line-height: 20% !important;
+  margin-bottom: -50px !important;
+}
+/*Fim Tebela Impressao Pedidos*/
